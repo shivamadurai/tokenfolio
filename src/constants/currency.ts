@@ -5,3 +5,7 @@ export const currencies = [
     {value: 'GBP', label: 'GBP'},
     {value: 'INR', label: 'INR'},
 ]
+
+export const defaultCurrency = 'usd';
+
+export const maxHistory = 10;

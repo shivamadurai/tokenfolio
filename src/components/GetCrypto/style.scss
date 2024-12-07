@@ -17,9 +17,23 @@
 
             .name {
                 text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+                overflow: hidden;
+                white-space: nowrap;
             }
         }
     }
+
+    .search-header, .box-header, .search-box, .filter-dropdown{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-box{
+        min-width: 400px;
+    }
+
+   .text-label {
+    margin: 20px;
+   }
 }
