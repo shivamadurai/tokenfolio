@@ -9,6 +9,7 @@ To add additional modules
 ### `npm install antd --save` - to have AntD responsive Layout
 ### `npm install sass --save` - to have SCSS preprocessing
 ### `npm install swr --save` - to have API Caching.
+### `npm install moment --save` - to have date formating support.
 
 In the project directory, you can run:
 
