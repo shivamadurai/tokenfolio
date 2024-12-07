@@ -29,7 +29,7 @@ export const GetCrypto: FC = (): JSX.Element => {
         const filterlist = codeHistory.filter((item) => item !== currency);
         setHistory([
             currency,
-            ...(filterlist.length >= maxHistory ? filterlist.slice(1, filterlist.length) : filterlist),
+            ...(filterlist.length >= maxHistory ? filterlist.slice(0, filterlist.length-1) : filterlist),
         ]);
     }, [currency]);
     // console.log(data, error, isLoading);
